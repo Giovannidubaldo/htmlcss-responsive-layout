@@ -36,6 +36,10 @@
     align-items: center;
 }
 
+.margin-top-30{
+    margin-top: 30px;
+}
+
 /***** HEADER *****/
 
 header{
@@ -54,6 +58,10 @@ header{
     display: flex;
 }
 
+.col-header{
+    width: 50%;
+}
+
 .button-header{
     background-color: white;
     padding: 10px;
@@ -64,20 +72,25 @@ header{
 
 /* Icons-texts */
 .icons-text{
-    margin-top: 20px;
+    margin-top: 50px;
+    padding: 20px;
+}    
+
+/* Planning */
+.planning{
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgb(145, 72, 213);
 }
 
 /***** COLUMN *****/
 
 .col-66,
+.col-50,
 .col-33{
     width: 100%;
     display: flex;
     justify-content: center;
-}
-
-.col-50{
-    width: 50%;
 }
 
 /***** TEXT-FONT *****/
