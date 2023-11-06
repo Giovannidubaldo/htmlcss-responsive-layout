@@ -32,6 +32,10 @@
     text-align: center;
 }
 
+.margin-top-50{
+    margin-top: 50px;
+}
+
 .margin-top-30{
     margin-top: 30px;
 }
@@ -88,7 +92,8 @@ header{
 
 /* Planning */
 .planning,
-.benefits{
+.benefits,
+.get-started{
     margin-top: 50px;
     padding: 20px;
     background-color: rgb(104, 81, 189);
@@ -124,6 +129,12 @@ header{
     width: 50%;
     border-radius: 50px;
 }
+
+/* Get started */
+.get-started{
+    margin-bottom: 0px;
+}
+
 /***** COLUMN *****/
 
 .content-column{
@@ -163,6 +174,14 @@ header{
     color: white;
 }
 
+.color-gray{
+    color: gray;
+}
+
+.color-orange{
+    color: orange;
+}
+
 /***** ANIMATION *****/
 
 .img-full{
@@ -186,12 +205,23 @@ li{
     width: 50%;
 }
 
+.button-started{
+    background-color: white;
+    color: rgb(104, 81, 189);
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    width: 50%;
+}
+
 .hidden{
     display: none;
 }
 
 /***** FOOTER *****/
-
+.bg-black{
+    background-color: rgb(24, 24, 24);
+}
 
 /***** RESPONSIVE *****/
 @media screen and (min-width: 576px) {
@@ -264,5 +294,9 @@ li{
 
     .col-100 p{
         align-items: center;
+    }
+
+    .button-started{
+        width: 30%;
     }
 }
