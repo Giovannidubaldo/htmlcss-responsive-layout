@@ -48,10 +48,6 @@
     margin-top: 20px;
 }
 
-.bg-skyblue{
-    background-color: rgb(157, 209, 241);
-}
-
 /***** HEADER *****/
 
 header{
@@ -92,6 +88,10 @@ header{
     font-size: 40px;
 }
 
+.bg-skyblue{
+    background-color: rgb(157, 209, 241);
+}
+
 /* Planning */
 .planning{
     margin-top: 50px;
@@ -115,6 +115,14 @@ header{
     padding: 20px;
 }
 
+.bg-purple{
+    background-color: rgb(104, 81, 189);
+}
+
+.img-people{
+    width: 100%;
+    border-radius: 50%;
+}
 /***** COLUMN *****/
 
 .content-column{
@@ -198,4 +206,17 @@ li{
         width: 33%;
     }
 
+    .planning h3{
+        font-size: 40px;
+        text-align: left;
+    }
+
+    .img-people{
+        width: 50%;
+    }
+
+    .testimonial .col-100 .content-column{
+        display: flex;
+        
+    }
 }
