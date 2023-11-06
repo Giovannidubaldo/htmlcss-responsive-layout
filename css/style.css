@@ -12,14 +12,6 @@
     flex-direction: column;
 }
 
-.content{
-    width: 200px;
-    height: 200px;
-    background-color: red;
-    border: 1px solid black;
-    margin: 10px;
-}
-
 .d-flex{
     display: flex;
 }
@@ -79,7 +71,8 @@ header{
 /***** MAIN *****/
 
 /* Icons-texts */
-.icons-text{
+.icons-text,
+.testimonial{
     margin-top: 50px;
     padding: 20px;
 }    
@@ -93,7 +86,8 @@ header{
 }
 
 /* Planning */
-.planning{
+.planning,
+.benefits{
     margin-top: 50px;
     padding: 20px;
     background-color: rgb(104, 81, 189);
@@ -110,11 +104,6 @@ header{
 }
 
 /* Testimonials */
-.testimonial{
-    margin-top: 50px;
-    padding: 20px;
-}
-
 .bg-purple{
     background-color: rgb(104, 81, 189);
 }
@@ -123,12 +112,14 @@ header{
     width: 100%;
     border-radius: 50%;
 }
+
+/* Benefits */
+
 /***** COLUMN *****/
 
 .content-column{
     padding: 20px;
     margin: 10px;
-    border: 1px dashed black;
     border-radius: 20px;
 }
 
@@ -206,8 +197,16 @@ li{
         width: 33%;
     }
 
+    .benefits .col-33{
+        width: 50%;
+    }
+
     .planning h3{
         font-size: 40px;
+        text-align: left;
+    }
+
+    .planning p{
         text-align: left;
     }
 
@@ -218,5 +217,20 @@ li{
     .testimonial .col-100 .content-column{
         display: flex;
         
+    }
+}
+
+@media screen and (min-width: 991px) {
+    
+    .col-50 {
+        width: 50%;
+    }
+    
+    .benefits .col-33{
+        width: 33%;
+    }
+
+    .col-100 p{
+        align-items: center;
     }
 }
