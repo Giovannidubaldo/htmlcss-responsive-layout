@@ -96,7 +96,17 @@ header{
 .planning{
     margin-top: 50px;
     padding: 20px;
-    background-color: rgb(145, 72, 213);
+    background-color: rgb(104, 81, 189);
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.button-darr{
+    background-color: rgb(104, 81, 189);
+    border-radius: 50px;
+    padding: 5px;
 }
 
 /* Testimonials */
@@ -126,11 +136,15 @@ header{
 /***** TEXT-FONT *****/
 
 .color-purple{
-    color: rgb(145, 72, 213);
+    color: rgb(104, 81, 189);
 }
 
 .color-blue{
     color: rgb(0, 81, 255);
+}
+
+.color-white{
+    color: white;
 }
 
 /***** ANIMATION *****/
@@ -168,4 +182,20 @@ li{
 
 
 /***** RESPONSIVE *****/
+@media screen and (min-width: 576px) {
+    .row{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 
+    .col-66{
+        width: 66%;
+    }
+
+    .col-33{
+        width: 33%;
+    }
+
+}
