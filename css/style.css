@@ -240,6 +240,10 @@ li{
         width: 33%;
     }
 
+    .phone{
+        width: 50%;
+    }
+
     .benefits .col-33{
         width: 50%;
     }
@@ -299,4 +303,9 @@ li{
     .button-started{
         width: 30%;
     }
+
+    .demo-column{
+        display: flex;
+    }
+
 }
